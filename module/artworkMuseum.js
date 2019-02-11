@@ -238,7 +238,6 @@ const getArtworkMuseumKNMII = async (search, sort, skip) => {
         let genre = ''
         if(findResult[i].genre != undefined)
             genre = findResult[i].genre.name_ru+'\n'+findResult[i].genre._id
-        console.log([findResult[i].image, findResult[i].image_whatermark, findResult[i].name_ru, findResult[i].styleOrMaterial_ru, findResult[i].description_ru, findResult[i].name_kg, findResult[i].styleOrMaterial_kg, findResult[i].description_kg, findResult[i].name_eng, findResult[i].styleOrMaterial_eng, findResult[i].description_eng, findResult[i].size, findResult[i].date, findResult[i].views, author, genre, format.asString('yyyy.dd.MM hh:mm', findResult[i].updatedAt), findResult[i]._id])
         data.push([findResult[i].image, findResult[i].image_whatermark, findResult[i].name_ru, findResult[i].styleOrMaterial_ru, findResult[i].description_ru, findResult[i].name_kg, findResult[i].styleOrMaterial_kg, findResult[i].description_kg, findResult[i].name_eng, findResult[i].styleOrMaterial_eng, findResult[i].description_eng, findResult[i].size, findResult[i].date, findResult[i].views, author, genre, format.asString('yyyy.dd.MM hh:mm', findResult[i].updatedAt), findResult[i]._id]);
     }
     return {data: data, count: count, row: row}
@@ -249,7 +248,7 @@ const addArtworkMuseumKNMII = async (object) => {
         let _object = new ArtworkMuseumKNMII(object);
         await ArtworkMuseumKNMII.create(_object);
     } catch(error) {
-        console.log(error)
+        console.error(error)
     }
 }
 
@@ -257,7 +256,7 @@ const setArtworkMuseumKNMII = async (object, id) => {
     try{
         await ArtworkMuseumKNMII.findOneAndUpdate({_id: id}, {$set: object});
     } catch(error) {
-        console.log(error)
+        console.error(error)
     }
 }
 
@@ -265,7 +264,7 @@ const deleteArtworkMuseumKNMII = async (id) => {
     try{
         await ArtworkMuseumKNMII.deleteMany({_id: {$in: id}});
     } catch(error) {
-        console.log(error)
+        console.error(error)
     }
 }
 

@@ -87,7 +87,7 @@ const addTicketMuseumKNMII = async (object) => {
         let _object = new TicketMuseumKNMII(object);
         await TicketMuseumKNMII.create(_object);
     } catch(error) {
-        console.log(error)
+        console.error(error)
         return true
     }
 }
@@ -96,7 +96,7 @@ const setTicketMuseumKNMII = async (object, id) => {
     try{
         await TicketMuseumKNMII.findOneAndUpdate({_id: id}, {$set: object});
     } catch(error) {
-        console.log(error)
+        console.error(error)
     }
 }
 
@@ -104,7 +104,7 @@ const deleteTicketMuseumKNMII = async (id) => {
     try{
         await TicketMuseumKNMII.deleteMany({_id: {$in: id}});
     } catch(error) {
-        console.log(error)
+        console.error(error)
     }
 }
 

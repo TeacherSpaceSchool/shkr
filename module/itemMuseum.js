@@ -94,7 +94,7 @@ const addItemMuseumKNMII = async (object) => {
         let _object = new ItemMuseumKNMII(object);
         await ItemMuseumKNMII.create(_object);
     } catch(error) {
-        console.log(error)
+        console.error(error)
     }
 }
 
@@ -102,7 +102,7 @@ const setItemMuseumKNMII = async (object, id) => {
     try{
         await ItemMuseumKNMII.findOneAndUpdate({_id: id}, {$set: object});
     } catch(error) {
-        console.log(error)
+        console.error(error)
     }
 }
 
@@ -110,7 +110,7 @@ const deleteItemMuseumKNMII = async (id) => {
     try{
         await ItemMuseumKNMII.deleteMany({_id: {$in: id}});
     } catch(error) {
-        console.log(error)
+        console.error(error)
     }
 }
 

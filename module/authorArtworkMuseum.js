@@ -58,7 +58,6 @@ const getAuthorArtworkMuseumKNMII = async (search, sort, skip) => {
 
         data.push([findResult[i].name, findResult[i].yearsOfLife, format.asString('yyyy.dd.MM hh:mm', findResult[i].updatedAt), findResult[i]._id]);
     }
-    console.log({data: data, count: count, row: row})
     return {data: data, count: count, row: row}
 }
 
@@ -67,7 +66,7 @@ const addAuthorArtworkMuseumKNMII = async (object) => {
         let _object = new AuthorArtworkMuseumKNMII(object);
         await AuthorArtworkMuseumKNMII.create(_object);
     } catch(error) {
-        console.log(error)
+        console.error(error)
     }
 }
 
@@ -75,7 +74,7 @@ const setAuthorArtworkMuseumKNMII = async (object, id) => {
     try{
         await AuthorArtworkMuseumKNMII.findOneAndUpdate({_id: id}, {$set: object});
     } catch(error) {
-        console.log(error)
+        console.error(error)
     }
 }
 
@@ -83,7 +82,7 @@ const deleteAuthorArtworkMuseumKNMII = async (id) => {
     try{
         await AuthorArtworkMuseumKNMII.deleteMany({_id: {$in: id}});
     } catch(error) {
-        console.log(error)
+        console.error(error)
     }
 }
 

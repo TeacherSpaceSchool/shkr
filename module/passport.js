@@ -14,7 +14,6 @@ let start = () => {
             session: false
         },
         function (email, password, done) {
-            console.log(email, password)
             UserMuseumKNMII.findOne({email}, (err, user) => {
                 if (err) {
                     return done(err);
@@ -71,7 +70,6 @@ const signinuser = (req, res) => {
                 res.status(401);
                 res.end('Login failed',401)
             } else {
-                console.log('into')
                 const payload = {
                     id: user._id,
                     email: user.email,
@@ -82,7 +80,7 @@ const signinuser = (req, res) => {
                 res.end(token);
             }
         } catch (err) {
-            console.log(err)
+            console.error(err)
             res.status(401);
             res.end('email not be unique')
         }

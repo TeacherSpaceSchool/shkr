@@ -80,7 +80,7 @@ const addVirtualMuseumKNMII = async (object) => {
         let _object = new VirtualMuseumKNMII(object);
         await VirtualMuseumKNMII.create(_object);
     } catch(error) {
-        console.log(error)
+        console.error(error)
     }
 }
 
@@ -88,7 +88,7 @@ const setVirtualMuseumKNMII = async (object, id) => {
     try{
         await VirtualMuseumKNMII.findOneAndUpdate({_id: id}, {$set: object});
     } catch(error) {
-        console.log(error)
+        console.error(error)
     }
 }
 
@@ -96,7 +96,7 @@ const deleteVirtualMuseumKNMII = async (id) => {
     try{
         await VirtualMuseumKNMII.deleteMany({_id: {$in: id}});
     } catch(error) {
-        console.log(error)
+        console.error(error)
     }
 }
 

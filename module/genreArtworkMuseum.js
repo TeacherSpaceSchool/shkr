@@ -101,7 +101,7 @@ const addGenreArtworkMuseumKNMII = async (object) => {
         let _object = new GenreArtworkMuseumKNMII(object);
         await GenreArtworkMuseumKNMII.create(_object);
     } catch(error) {
-        console.log(error)
+        console.error(error)
     }
 }
 
@@ -109,7 +109,7 @@ const setGenreArtworkMuseumKNMII = async (object, id) => {
     try{
         await GenreArtworkMuseumKNMII.findOneAndUpdate({_id: id}, {$set: object});
     } catch(error) {
-        console.log(error)
+        console.error(error)
     }
 }
 
@@ -117,7 +117,7 @@ const deleteGenreArtworkMuseumKNMII = async (id) => {
     try{
         await GenreArtworkMuseumKNMII.deleteMany({_id: {$in: id}});
     } catch(error) {
-        console.log(error)
+        console.error(error)
     }
 }
 
@@ -125,7 +125,7 @@ const getIdsGenreArtworkMuseumKNMII = async () => {
     try{
         return(await GenreArtworkMuseumKNMII.find().select('_id name_ru'));
     } catch(error) {
-        console.log(error)
+        console.error(error)
     }
 }
 

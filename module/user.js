@@ -26,7 +26,7 @@ let createAdmin = async () => {
         }
         adminId = findAdmin._id.toString();
     } catch(error) {
-        console.log(error)
+        console.error(error)
     }
 }
 
