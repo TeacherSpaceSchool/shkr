@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aef3c9e9-2922-42a5-aaa5-79ce22b59d1a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aclient/precache-manifest.8970a19e75de8a5a07a1f4b8558c8f0e.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aclient/static/css/main.b8a3eb47.chunk.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aclient/static/css/main.b8a3eb47.chunk.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aclient/static/js/main.16a2af78.chunk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aclient/static/js/main.16a2af78.chunk.js.map" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aclient/asset-manifest.json" afterPath="$PROJECT_DIR$/aclient/asset-manifest.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aclient/index.html" afterPath="$PROJECT_DIR$/aclient/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aclient/service-worker.js" afterPath="$PROJECT_DIR$/aclient/service-worker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,7 +34,17 @@
         <entry file="file://$PROJECT_DIR$/routes/admin.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -77,7 +80,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="const.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="const.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/const.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -205,7 +208,6 @@
         <option value="$PROJECT_DIR$/admin/service-worker-knmi-admin.js" />
         <option value="$PROJECT_DIR$/admin/service-worker.js" />
         <option value="$PROJECT_DIR$/admin/precache-manifest.161576c6727d4ccd0dc9bc760a197789.js" />
-        <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/../../data.js" />
         <option value="$PROJECT_DIR$/models/artwork/authorArtworkMuseumKNMII.js" />
         <option value="$PROJECT_DIR$/module/authorArtworkMuseum.js" />
@@ -215,6 +217,7 @@
         <option value="$PROJECT_DIR$/views/error.jade" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/module/const.js" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
       </list>
     </option>
   </component>
@@ -424,7 +427,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="259330000" />
+    <option name="totallyTimeSpent" value="259748000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -651,13 +654,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/service-worker.js" />
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../data.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -752,14 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/data.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -788,6 +776,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
           <folding />
         </state>
       </provider>
