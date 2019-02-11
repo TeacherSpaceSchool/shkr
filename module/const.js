@@ -1,6 +1,6 @@
 const url = 'http://localhost/',
     adminLogin = 'admin',
-    adminPass = '12345678';
+    adminPass = '5Qtg?TFQQj';
 
 module.exports.adminPass = adminPass;
 module.exports.adminLogin = adminLogin;
