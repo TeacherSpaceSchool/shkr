@@ -200,6 +200,7 @@ router.post('/add', async (req, res) => {
                     }
                     await image.resize(320, Jimp.AUTO).write(filepathThumbnail);
                     if(req.body.name == 'Произведение') {
+                        console.log('water', image)
                         let image = await Jimp.read(filepath)
                         console.log('water', image)
                         let font = await Jimp.loadFont(Jimp.FONT_SANS_32_WHITE);
