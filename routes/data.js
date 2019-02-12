@@ -195,13 +195,13 @@ router.post('/add', async (req, res) => {
                 }
                 stream.on('finish', async () => {
                     let image = await Jimp.read(filepath)
-                    console.log(image)
                     if(image.bitmap.width>1500||image.bitmap.height>1500) {
                         await image.resize(1500, Jimp.AUTO).write(filepath);
                     }
                     await image.resize(320, Jimp.AUTO).write(filepathThumbnail);
                     if(req.body.name == 'Произведение') {
                         let image = await Jimp.read(filepath)
+                        console.log('water', image)
                         let font = await Jimp.loadFont(Jimp.FONT_SANS_32_WHITE);
                         await image.print(font, 10, 10, 'KNMII')
                         await image.write(filepathWhatermark);
