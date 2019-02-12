@@ -208,7 +208,6 @@ router.post('/add', async (req, res) => {
                         await image.print(font, 10, 10, 'KNMII')
                         await image.write(filepathWhatermark);
                         image = await Jimp.read(filepath)
-                        console.log('water', image)
                         await image.print(font, 10, 10, 'KNMII')
                         await image.resize(320, Jimp.AUTO)
                         await image.write(filepathWhatermarkThumbnail);
