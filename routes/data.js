@@ -60,7 +60,6 @@ router.post('/getclient', async (req, res) => {
         await res.send(await ArtworkMuseum.getClient(data.search, data.sort, data.skip, data.genre))
     } else if(req.body.name == 'ДругиеГаллерея'){
         let data = JSON.parse(req.body.data)
-        console.log(req.body.name)
         await res.send(await ArtworkMuseum.getRandom(data.search, data.sort))
     } else if(req.body.name == 'Экскурсии'){
         await res.send(await ExcursionMuseum.getClient())
@@ -68,7 +67,6 @@ router.post('/getclient', async (req, res) => {
         let data = JSON.parse(req.body.data)
         await res.send(await GenreArtworkMuseum.getClient(data.search))
     } else if(req.body.name == 'Товар'){
-        console.log('Товар')
         let data = JSON.parse(req.body.data)
         await res.send(await ItemMuseum.getClient(data.skip))
     } else if(req.body.name == 'ТоварID'){
@@ -197,6 +195,7 @@ router.post('/add', async (req, res) => {
                 }
                 stream.on('finish', async () => {
                     let image = await Jimp.read(filepath)
+                    console.log(image)
                     if(image.bitmap.width>1500||image.bitmap.height>1500) {
                         await image.resize(1500, Jimp.AUTO).write(filepath);
                     }
@@ -326,7 +325,6 @@ router.post('/add', async (req, res) => {
                 myNew.author=null
             if(myNew.genre=='')
                 myNew.genre=null
-            console.log(myNew)
             data = {
                 views: 0,
                 image_whatermark: whatermark,

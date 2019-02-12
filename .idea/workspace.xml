@@ -2,15 +2,663 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aef3c9e9-2922-42a5-aaa5-79ce22b59d1a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/precache-manifest.c2c4de7d6e0301634d00f99b27a2ef6a.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/static/css/main.f3aa1266.chunk.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/static/css/main.f3aa1266.chunk.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/static/js/main.57ed9291.chunk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/static/js/main.57ed9291.chunk.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/0CraUK8LOGO КНМИИ.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/0E6uy6Vгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/0MaBTPlгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/0RWnfKAzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/0dx15PY1404594863_preview_Enemy_GangMarked.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/0kZWRtdбилеты1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/13ydaEKгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/1MNtyPlosen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/1ah8PCSzhivopis_sneg_zima_d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/1klTMVace3d5361-4272-4f22-a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/1mOoKqQphoto (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/1nuyKIBbloooooooooood.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/1ptn66czhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/1uaDDDjгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/1xeTya2images.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/24BnaTJIMG_3478.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/2AcEe1jzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/2Lh7UTRLOGO КНМИИ.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/2eTxWqkгалерея4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/2g6E4Tkгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/2rHuh6Vmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/3OMSqOpimages.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/3jn7S70zhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/3oAfZF5bloooooooooood.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/3pAiXpfmaxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/4MASdojphoto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/55pebopгалерея5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/56CLSWnsovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/59JuLCsгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/5FqHJSDsovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/5Jp8Vobгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/5Uw70sE1404594863_preview_Enemy_GangMarked.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/5jWjCTFosen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/6PLoeRCphoto (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/775MJUlphoto (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/7EjHqjxгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/7WxdCfOphoto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/7b4aJX1maxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/7mE8uuRбилеты1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/8QO1WsJmaxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/8bZNufRгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/8mk5kzLzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/8qw7QcCmaxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/8ucSXyKphoto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/8wRpxbBmaxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/9CbisDPphoto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/9ZcvZX0medved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/9j26Oofгалерея3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/9sEQaHXгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/A1Qb6eoгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/AZzwyEehudozhnik_volny_kras.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/AjeZjdPhudozhnik_volny_kras.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/B6JCt99галерея4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/BPw17DNphoto (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/BfnGnPvmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/BpKGy6Iгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/BwPNKlqphoto (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/CLxnXr8photo (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/CNYLzDqosen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/CblXvQvosen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/CoSTptPmaxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/CvHtKgpphoto (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/CxsMC81korabl_polnolunie_go.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/D5Zo0Qhm1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/DS1bR27sovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/DiZI4s3sovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/E0SKlkfzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/E75ugZUphoto (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/EQPRlsr3D-grafika-184612.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/ER8WqeDгалерея4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/EZULD95korabl_polnolunie_go.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/EgUh2KQkorabl_polnolunie_go.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/ElLNMctгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/ElvMe8Vгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/EzFz247галерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/EztS7a0osen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/F3OkGUTMiska-keramicheskaya-rospis-risunok-Kostochki-134x4-sm-N1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/FZT60sSbloooooooooood.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/FxX5PTzsovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/GR5QpWUzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/GWB9Uiozhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/GdS1ypRphoto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/GjNs1mhгалерея6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/GvY6la9hudozhnik_volny_kras.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/H2KYI8ymaxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/HB16WYJгалерея5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/HNMfFF1sovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/HelCodRгалерея3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/Hi0sjGXzhivopis_sneg_zima_d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/HlW5wV6sovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/HtiEZTQ28953.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/HyXaXOZmaxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/I5VujCWгалерея4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/IPxZeANosen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/IeouaSPkorabl_polnolunie_go.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/InZsHOjгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/IpAHeOrmaxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/JEYAR9Jгалерея4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/JShHOz1zhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/JVjJmt6osen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/JgUMu5lгалерея3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/JiMoLj3images.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/KD2b0zmhudozhnik_volny_kras.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/KFQJSjQzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/KIcTCBposen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/KUNONPVimages.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/KqGI6rZzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/KzGLxPfsovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/LCZ42bDphoto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/LDO7GrVzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/LYfu4kysovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/Lcbi4fhгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/LsAjKnd28953.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/MKRe96jmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/N0qFogYhudozhnik_volny_kras.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/N5Zc9eXгалерея3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/NGt8RHSгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/NS2yCO4галерея5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/NULPZMMгалерея3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/NerH1qRosen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/Nf5gRT7sovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/NiT2VBKimages.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/NkDOB7as3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/NuGEuQUm1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/O3VAIx8sovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/OCRF24728953.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/OVwa69hhudozhnik_volny_kras.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/OlH5zH3maxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/OoIIOY5bloooooooooood.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/OrPzAkKгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/Orlgu40medved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/OtMZs5Ophoto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/Otv5UEtmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/Owcm50xphoto (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/PO7wms3галерея6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/PgqrsnAosen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/PyEw8iYmaxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/Q9Vek6Lkorabl_polnolunie_go.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/QE6PHpBгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/QlzdG5jгалерея4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/QoILWMnmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/R3bNuNlгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/REV7peZimages.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/RYZ9ge2галерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/RZczTrCгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/RtlZyVIгалерея5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/S5Kyn1cгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/SjSAWVnbloooooooooood.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/T5vTSSWimages.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/TPLaLishudozhnik_volny_kras.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/TkPFtvEimages.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/TqPo5Jtгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/UVdKoUmce3d5361-4272-4f22-a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/UcxGqKDгалерея6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/Ul83GgPгалерея4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/V3MYRFimedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/VekIGIoгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/Vp2765xгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/VwVi9OOsovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/W2DSttvбилеты1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/W4ZWyp0галерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/WHLjwYUzhivopis_sneg_zima_d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/WTDgCErгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/Wbv2eCcosen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/WcLl8Qbmaxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/WeYKB9Aгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/WoIJ9nbkorabl_polnolunie_go.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/X1QBWadbloooooooooood.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/X1ZoT3lzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/X7brLzqmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/XAAS9r9bloooooooooood.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/XT2BOv01404594863_preview_Enemy_GangMarked.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/XWFn2ZCkorabl_polnolunie_go.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/XrMQBgfгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/Xs9XzNHгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/XvbYAZTгалерея5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/Y2Jswd0галерея4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/YPX6fctkorabl_polnolunie_go.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/YjmNOjsгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/Z1OKsRCmaxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/Z46wIF6maxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/ZELhVgB6BsjJKEvi7M.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/ZEj23xEmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/ZcU5vrephoto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/ZuxoFpUmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/a2aYhlbimages.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/am5uxWa28953.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/ayms1Yophoto (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/b363YkJphoto (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/bUMqfAHsovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/bX9VEfYmaxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/baLuwSyzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/beqaIVyгалерея5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/boDs08tzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/bwaqIf8галерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/c4uYy9Xsovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/cFdwHUhmaxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/cQNwpClгалерея4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/cpovwgephoto (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/dEqXw1Oosen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/dapRtF4photo (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/dpsXGMephoto (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/dto4EHXгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/e1EW11kгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/eFjSAZVmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/eQ95kYL3D-grafika-184612.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/ef7j1nsmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/eyh8XX6s3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/fKMm0iuimages.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/fKR6VwDphoto (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/fNMtGTfmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/fjHlXezphoto (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/flPNW9Aimages.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/fplXBzZkorabl_polnolunie_go.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/fqWVQvymaxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/fteEl3gzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/fzFFcMTmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/g31Skmcphoto (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/gAAhQKZzhivopis_sneg_zima_d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/gPqmOPcphoto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/gdJ8QRuhudozhnik_volny_kras.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/geJlKCukorabl_polnolunie_go.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/glPG5fCгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/gpQ3wEXphoto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/hTNrKP9галерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/hdT6b7Isovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/hnIsDPNsovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/i98jg76галерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/iGGJW4Yhudozhnik_volny_kras.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/iHDVYtOimages.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/iQsEygEmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/iS1rUqgmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/izQRQswгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/izViJClmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/jTBQhVszhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/jTUdd0xгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/jXsftgXosen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/jZRz2qazhivopis_sneg_zima_d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/jdQUq53zhivopis_sneg_zima_d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/jn7SFZzzhivopis_sneg_zima_d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/jttpwnPгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/jzB2S6Kгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/k1qmxVOzhivopis_sneg_zima_d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/k3Y0thTkorabl_polnolunie_go.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/k4Al11tbloooooooooood.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/k92Z1tLzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/kEPoLZZ1404594863_preview_Enemy_GangMarked — копия.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/kWstU0Tгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/kp6qlFoгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/lCyIqfdzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/lHA8Qbfmaxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/lXSGi4uzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/lZZ8nM4галерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/lsVy7BQгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/lvEndKxkorabl_polnolunie_go.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/m0ccDl8photo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/m6LcFyYsovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/mmSkUIYmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/mtEhvQ6images.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/nATy115medved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/nNdC41Vmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/nwjF5jXгалерея3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/o0aeDsomaxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/o91evjwm1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/oZPjjCoosen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/oavNjxLzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/p068Znbmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/p64EMcHosen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/pHPr8biphoto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/pWW9J6Qzhivopis_sneg_zima_d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/peegMp0korabl_polnolunie_go.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/pf9RKItfavicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/pmM7rIS28953.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/pxfxdJ6zhivopis_sneg_zima_d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/q6vWwqpimages.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/qTQt4tLzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/qkf7acMimages.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/qp214OZkorabl_polnolunie_go.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/qrNj77cs2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/qzPRQPRгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/rVsaByjphoto (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/rZEYOgdгалерея4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/rrC1TFIbloooooooooood.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/ryvCXFPosen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/s05sbdTphoto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/t0qwMqEsovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/t5GtDJbгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/t9G6ZWfmaxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/tE6Vhzubloooooooooood.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/tGZYGhLosen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/tSwIL2Esovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/tZFFd1Yphoto (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/tgnzD7Wгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/tzfAwZe3D-grafika-184612.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/u4NFlKzгалерея3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/uTKc7Skmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/uUrRwjvphoto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/udkLj7rгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/uhGetEVгалерея3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/uob22vwsovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/uvhsz2ssovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/vLIaBYksovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/vg2vu88галерея4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/vjGUuVeгалерея4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/vowCL6hгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/vunifUZosen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/vzFionykorabl_polnolunie_go.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/w8321QEгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/wDY6qazгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/wVmTVg4sovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/wxx4Fiahudozhnik_volny_kras.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/xES5jRTosen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/xLAbwR1галерея3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/xLq4RCUгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/xMGFf1aгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/xNpPfD91404594863_preview_Enemy_GangMarked.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/xQmbUuMzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/xfcAPryzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/y5tpctAphoto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/y8Mr38Zгалерея3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/yOcf9jOгалерея4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/yPeOXlbphoto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/yRbai2Rbloooooooooood.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/yUUoVI2zhivopis_sneg_zima_d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/yUdll6Fhudozhnik_volny_kras.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/yZOrBoMphoto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/z1OiikIzhivopis_sneg_zima_d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/zCVtlDSzhivopis_sneg_zima_d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/0CraUK8LOGO КНМИИ.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/0E6uy6Vгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/0MaBTPlгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/0RWnfKAzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/0dx15PY1404594863_preview_Enemy_GangMarked.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/0kZWRtdбилеты1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/13ydaEKгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/1MNtyPlosen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/1ah8PCSzhivopis_sneg_zima_d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/1klTMVace3d5361-4272-4f22-a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/1mOoKqQphoto (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/1nuyKIBbloooooooooood.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/1ptn66czhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/1uaDDDjгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/1xeTya2images.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/24BnaTJIMG_3478.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/2AcEe1jzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/2Lh7UTRLOGO КНМИИ.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/2eTxWqkгалерея4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/2g6E4Tkгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/2rHuh6Vmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/3OMSqOpimages.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/3jn7S70zhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/3oAfZF5bloooooooooood.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/3pAiXpfmaxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/4MASdojphoto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/55pebopгалерея5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/56CLSWnsovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/59JuLCsгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/5FqHJSDsovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/5Jp8Vobгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/5Uw70sE1404594863_preview_Enemy_GangMarked.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/5jWjCTFosen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/6PLoeRCphoto (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/775MJUlphoto (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/7EjHqjxгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/7WxdCfOphoto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/7b4aJX1maxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/7mE8uuRбилеты1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/8QO1WsJmaxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/8bZNufRгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/8mk5kzLzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/8qw7QcCmaxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/8ucSXyKphoto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/8wRpxbBmaxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/9CbisDPphoto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/9ZcvZX0medved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/9j26Oofгалерея3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/9sEQaHXгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/A1Qb6eoгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/AZzwyEehudozhnik_volny_kras.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/AjeZjdPhudozhnik_volny_kras.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/B6JCt99галерея4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/BPw17DNphoto (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/BfnGnPvmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/BpKGy6Iгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/BwPNKlqphoto (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/CLxnXr8photo (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/CNYLzDqosen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/CblXvQvosen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/CoSTptPmaxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/CvHtKgpphoto (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/CxsMC81korabl_polnolunie_go.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/D5Zo0Qhm1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/DS1bR27sovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/DiZI4s3sovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/E0SKlkfzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/E75ugZUphoto (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/EQPRlsr3D-grafika-184612.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/ER8WqeDгалерея4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/EZULD95korabl_polnolunie_go.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/EgUh2KQkorabl_polnolunie_go.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/ElLNMctгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/ElvMe8Vгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/EzFz247галерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/EztS7a0osen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/F3OkGUTMiska-keramicheskaya-rospis-risunok-Kostochki-134x4-sm-N1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/FZT60sSbloooooooooood.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/FxX5PTzsovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/GR5QpWUzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/GWB9Uiozhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/GdS1ypRphoto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/GjNs1mhгалерея6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/GvY6la9hudozhnik_volny_kras.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/H2KYI8ymaxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/HB16WYJгалерея5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/HNMfFF1sovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/HelCodRгалерея3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/Hi0sjGXzhivopis_sneg_zima_d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/HlW5wV6sovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/HtiEZTQ28953.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/HyXaXOZmaxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/I5VujCWгалерея4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/IPxZeANosen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/IeouaSPkorabl_polnolunie_go.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/InZsHOjгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/IpAHeOrmaxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/JEYAR9Jгалерея4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/JShHOz1zhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/JVjJmt6osen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/JgUMu5lгалерея3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/JiMoLj3images.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/KD2b0zmhudozhnik_volny_kras.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/KFQJSjQzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/KIcTCBposen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/KUNONPVimages.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/KqGI6rZzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/KzGLxPfsovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/LCZ42bDphoto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/LDO7GrVzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/LYfu4kysovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/Lcbi4fhгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/LsAjKnd28953.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/MKRe96jmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/N0qFogYhudozhnik_volny_kras.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/N5Zc9eXгалерея3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/NGt8RHSгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/NS2yCO4галерея5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/NULPZMMгалерея3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/NerH1qRosen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/Nf5gRT7sovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/NiT2VBKimages.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/NkDOB7as3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/NuGEuQUm1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/O3VAIx8sovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/OCRF24728953.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/OVwa69hhudozhnik_volny_kras.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/OlH5zH3maxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/OoIIOY5bloooooooooood.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/OrPzAkKгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/Orlgu40medved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/OtMZs5Ophoto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/Otv5UEtmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/Owcm50xphoto (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/PO7wms3галерея6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/PgqrsnAosen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/PyEw8iYmaxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/Q9Vek6Lkorabl_polnolunie_go.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/QE6PHpBгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/QlzdG5jгалерея4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/QoILWMnmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/R3bNuNlгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/REV7peZimages.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/RYZ9ge2галерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/RZczTrCгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/RtlZyVIгалерея5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/S5Kyn1cгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/SjSAWVnbloooooooooood.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/T5vTSSWimages.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/TPLaLishudozhnik_volny_kras.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/TkPFtvEimages.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/TqPo5Jtгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/UVdKoUmce3d5361-4272-4f22-a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/UcxGqKDгалерея6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/Ul83GgPгалерея4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/V3MYRFimedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/VekIGIoгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/Vp2765xгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/VwVi9OOsovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/W2DSttvбилеты1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/W4ZWyp0галерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/WHLjwYUzhivopis_sneg_zima_d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/WTDgCErгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/Wbv2eCcosen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/WcLl8Qbmaxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/WeYKB9Aгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/WoIJ9nbkorabl_polnolunie_go.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/X1QBWadbloooooooooood.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/X1ZoT3lzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/X7brLzqmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/XAAS9r9bloooooooooood.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/XT2BOv01404594863_preview_Enemy_GangMarked.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/XWFn2ZCkorabl_polnolunie_go.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/XrMQBgfгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/Xs9XzNHгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/XvbYAZTгалерея5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/Y2Jswd0галерея4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/YPX6fctkorabl_polnolunie_go.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/YjmNOjsгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/Z1OKsRCmaxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/Z46wIF6maxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/ZELhVgB6BsjJKEvi7M.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/ZEj23xEmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/ZcU5vrephoto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/ZuxoFpUmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/a2aYhlbimages.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/am5uxWa28953.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/ayms1Yophoto (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/b363YkJphoto (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/bUMqfAHsovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/bX9VEfYmaxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/baLuwSyzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/beqaIVyгалерея5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/boDs08tzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/bwaqIf8галерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/c4uYy9Xsovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/cFdwHUhmaxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/cQNwpClгалерея4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/cpovwgephoto (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/dEqXw1Oosen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/dapRtF4photo (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/dpsXGMephoto (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/dto4EHXгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/e1EW11kгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/eFjSAZVmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/eQ95kYL3D-grafika-184612.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/ef7j1nsmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/eyh8XX6s3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/fKMm0iuimages.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/fKR6VwDphoto (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/fNMtGTfmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/fjHlXezphoto (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/flPNW9Aimages.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/fplXBzZkorabl_polnolunie_go.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/fqWVQvymaxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/fteEl3gzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/fzFFcMTmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/g31Skmcphoto (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/gAAhQKZzhivopis_sneg_zima_d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/gPqmOPcphoto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/gdJ8QRuhudozhnik_volny_kras.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/geJlKCukorabl_polnolunie_go.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/glPG5fCгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/gpQ3wEXphoto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/hTNrKP9галерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/hdT6b7Isovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/hnIsDPNsovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/i98jg76галерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/iGGJW4Yhudozhnik_volny_kras.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/iHDVYtOimages.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/iQsEygEmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/iS1rUqgmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/izQRQswгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/izViJClmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/jTBQhVszhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/jTUdd0xгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/jXsftgXosen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/jZRz2qazhivopis_sneg_zima_d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/jdQUq53zhivopis_sneg_zima_d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/jn7SFZzzhivopis_sneg_zima_d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/jttpwnPгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/jzB2S6Kгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/k1qmxVOzhivopis_sneg_zima_d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/k3Y0thTkorabl_polnolunie_go.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/k4Al11tbloooooooooood.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/k92Z1tLzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/kEPoLZZ1404594863_preview_Enemy_GangMarked — копия.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/kWstU0Tгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/kp6qlFoгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/lCyIqfdzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/lHA8Qbfmaxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/lXSGi4uzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/lZZ8nM4галерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/lsVy7BQгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/lvEndKxkorabl_polnolunie_go.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/m0ccDl8photo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/m6LcFyYsovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/mmSkUIYmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/mtEhvQ6images.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/nATy115medved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/nNdC41Vmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/nwjF5jXгалерея3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/o0aeDsomaxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/o91evjwm1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/oZPjjCoosen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/oavNjxLzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/p068Znbmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/p64EMcHosen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/pHPr8biphoto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/pWW9J6Qzhivopis_sneg_zima_d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/peegMp0korabl_polnolunie_go.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/pmM7rIS28953.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/pxfxdJ6zhivopis_sneg_zima_d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/q6vWwqpimages.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/qTQt4tLzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/qkf7acMimages.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/qp214OZkorabl_polnolunie_go.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/qrNj77cs2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/qzPRQPRгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/rVsaByjphoto (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/rZEYOgdгалерея4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/rrC1TFIbloooooooooood.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/ryvCXFPosen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/s05sbdTphoto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/t0qwMqEsovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/t5GtDJbгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/t9G6ZWfmaxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/tE6Vhzubloooooooooood.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/tGZYGhLosen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/tSwIL2Esovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/tZFFd1Yphoto (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/tgnzD7Wгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/tzfAwZe3D-grafika-184612.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/u4NFlKzгалерея3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/uTKc7Skmedved_zhivopis_sneg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/uUrRwjvphoto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/udkLj7rгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/uhGetEVгалерея3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/uob22vwsovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/uvhsz2ssovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/vLIaBYksovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/vg2vu88галерея4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/vjGUuVeгалерея4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/vowCL6hгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/vunifUZosen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/vzFionykorabl_polnolunie_go.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/w8321QEгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/wDY6qazгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/wVmTVg4sovy_noch_pticy_vetk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/wxx4Fiahudozhnik_volny_kras.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/xES5jRTosen_risunok_progulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/xLAbwR1галерея3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/xLq4RCUгалерея2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/xMGFf1aгалерея1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/xNpPfD91404594863_preview_Enemy_GangMarked.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/xQmbUuMzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/xfcAPryzhivopis_kon_loshad_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/y5tpctAphoto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/y8Mr38Zгалерея3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/yOcf9jOгалерея4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/yPeOXlbphoto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/yRbai2Rbloooooooooood.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/yUUoVI2zhivopis_sneg_zima_d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/yUdll6Fhudozhnik_volny_kras.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/yZOrBoMphoto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/z1OiikIzhivopis_sneg_zima_d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/thumbnail/zCVtlDSzhivopis_sneg_zima_d.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/asset-manifest.json" afterPath="$PROJECT_DIR$/admin/asset-manifest.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/index.html" afterPath="$PROJECT_DIR$/admin/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/service-worker.js" afterPath="$PROJECT_DIR$/admin/service-worker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/data.js" afterPath="$PROJECT_DIR$/routes/data.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,16 +675,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="genreArtworkMuseum.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/genreArtworkMuseum.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2159">
-              <caret line="127" column="21" lean-forward="false" selection-start-line="127" selection-start-column="21" selection-end-line="127" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="itemMuseum.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/itemMuseum.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -117,11 +755,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="const.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="const.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/const.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/data.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="197" column="37" lean-forward="false" selection-start-line="197" selection-start-column="37" selection-end-line="197" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -237,7 +885,6 @@
         <option value="$PROJECT_DIR$/admin/precache-manifest.161576c6727d4ccd0dc9bc760a197789.js" />
         <option value="$PROJECT_DIR$/../../data.js" />
         <option value="$PROJECT_DIR$/models/artwork/authorArtworkMuseumKNMII.js" />
-        <option value="$PROJECT_DIR$/routes/data.js" />
         <option value="$PROJECT_DIR$/routes/admin.js" />
         <option value="$PROJECT_DIR$/views/error.jade" />
         <option value="$PROJECT_DIR$/routes/index.js" />
@@ -255,6 +902,7 @@
         <option value="$PROJECT_DIR$/module/user.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/module/const.js" />
+        <option value="$PROJECT_DIR$/routes/data.js" />
       </list>
     </option>
   </component>
@@ -460,12 +1108,12 @@
       <workItem from="1549625969130" duration="7544000" />
       <workItem from="1549685900380" duration="9568000" />
       <workItem from="1549877692064" duration="1007000" />
-      <workItem from="1549952697028" duration="2004000" />
+      <workItem from="1549952697028" duration="3616000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="264377000" />
+    <option name="totallyTimeSpent" value="265989000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -479,14 +1127,14 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16983524" sideWeight="0.75301206" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16983524" sideWeight="0.75364965" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16983524" sideWeight="0.24698795" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26244953" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16983524" sideWeight="0.24635036" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26244953" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -681,13 +1329,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="112" column="56" lean-forward="false" selection-start-line="112" selection-start-column="56" selection-end-line="112" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/error.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -816,6 +1457,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="197" column="37" lean-forward="false" selection-start-line="197" selection-start-column="37" selection-end-line="197" selection-end-column="37" />
           <folding />
         </state>
       </provider>
