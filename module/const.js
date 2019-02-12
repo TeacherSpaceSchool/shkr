@@ -1,4 +1,4 @@
-const url = 'http://212.42.119.17/',
+const url = '/',
     adminLogin = 'admin',
     adminPass = '5Qtg?TFQQj';
 
