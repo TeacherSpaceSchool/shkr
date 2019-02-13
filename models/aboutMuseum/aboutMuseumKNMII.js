@@ -1,38 +1,29 @@
 var mongoose = require('mongoose');
-var uniqueValidator = require('mongoose-unique-validator');
 
 const AboutMuseumKNMIISchema = mongoose.Schema({
     photos: {
         type: [String],
-        required: true,
-        unique: false
+        required: true
     },
     photos_thumbnail: {
         type: [String],
-        required: true,
-        unique: false
+        required: true
     },
     biography_ru: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     biography_kg: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     biography_eng: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
 }, {
     timestamps: true
 });
-
-
-AboutMuseumKNMIISchema.plugin(uniqueValidator);
 
 var AboutMuseumKNMII = mongoose.model('AboutMuseumKNMII', AboutMuseumKNMIISchema);
 

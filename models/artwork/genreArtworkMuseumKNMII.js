@@ -1,52 +1,42 @@
 var mongoose = require('mongoose');
-var uniqueValidator = require('mongoose-unique-validator');
 
 const GenreArtworkMuseumKNMIISchema = mongoose.Schema({
     photo: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     photo_thumbnail: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     description_ru: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     description_kg: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     description_eng: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     name_ru: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     name_kg: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     name_eng: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
 }, {
     timestamps: true
 });
 
-GenreArtworkMuseumKNMIISchema.plugin(uniqueValidator);
 
 var GenreArtworkMuseumKNMII = mongoose.model('GenreArtworkMuseumKNMII', GenreArtworkMuseumKNMIISchema);
 

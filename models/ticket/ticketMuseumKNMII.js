@@ -1,47 +1,38 @@
 const mongoose = require('mongoose');
-var uniqueValidator = require('mongoose-unique-validator');
 
 const TicketMuseumKNMIISchema = mongoose.Schema({
     genre_ru: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     type_ru: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     genre_kg: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     type_kg: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     genre_eng: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     type_eng: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     price: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
 }, {
     timestamps: true
 });
 
-TicketMuseumKNMIISchema.plugin(uniqueValidator);
 
 var TicketMuseumKNMII = mongoose.model('TicketMuseumKNMII', TicketMuseumKNMIISchema);
 

@@ -1,82 +1,66 @@
 var mongoose = require('mongoose');
-var uniqueValidator = require('mongoose-unique-validator');
 var random = require('mongoose-random');
 
 const ArtworkMuseumKNMIISchema = mongoose.Schema({
     image: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     image_thumbnail: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     image_whatermar_thumbnail: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     image_whatermark: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     description_ru: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     description_kg: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     description_eng: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     name_ru: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     name_kg: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     name_eng: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     styleOrMaterial_ru: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     styleOrMaterial_kg: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     styleOrMaterial_eng: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     size: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     date: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     author: {
         type: mongoose.Schema.Types.ObjectId,
@@ -91,7 +75,6 @@ const ArtworkMuseumKNMIISchema = mongoose.Schema({
     timestamps: true
 });
 
-ArtworkMuseumKNMIISchema.plugin(uniqueValidator);
 ArtworkMuseumKNMIISchema.plugin(random, { path: 'r' });
 
 var ArtworkMuseumKNMII = mongoose.model('ArtworkMuseumKNMII', ArtworkMuseumKNMIISchema);

@@ -5,74 +5,60 @@ var uniqueValidator = require('mongoose-unique-validator');
 const EventMuseumKNMIISchema = mongoose.Schema({
     photos: {
         type: [String],
-        required: true,
-        unique: false
+        required: true
     },
     photos_thumbnail: {
         type: [String],
-        required: true,
-        unique: false
+        required: true
     },
     dateStart: {
         type: Date,
-        required: true,
-        unique: false
+        required: true
     },
     dateEnd: {
         type: Date,
-        required: true,
-        unique: false
+        required: true
     },
     type_ru: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     description_ru: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     name_ru: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     type_eng: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     description_eng: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     name_eng: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     type_kg: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     description_kg: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     name_kg: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
 }, {
     timestamps: true
 });
 
-EventMuseumKNMIISchema.plugin(uniqueValidator);
 EventMuseumKNMIISchema.plugin(random, { path: 'r' });
 
 var EventMuseumKNMII = mongoose.model('EventMuseumKNMII', EventMuseumKNMIISchema);

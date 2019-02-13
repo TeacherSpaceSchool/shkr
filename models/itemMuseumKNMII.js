@@ -1,53 +1,43 @@
 var mongoose = require('mongoose');
-var uniqueValidator = require('mongoose-unique-validator');
 var random = require('mongoose-random');
 
 const ItemMuseumKNMIISchema = mongoose.Schema({
     image: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     image_thumbnail: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     description: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     name: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     styleOrMaterial: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     date: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     price: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     author: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     }
 }, {
     timestamps: true
 });
 
-ItemMuseumKNMIISchema.plugin(uniqueValidator);
 ItemMuseumKNMIISchema.plugin(random, { path: 'r' });
 
 var ItemMuseumKNMII = mongoose.model('ItemMuseumKNMII', ItemMuseumKNMIISchema);

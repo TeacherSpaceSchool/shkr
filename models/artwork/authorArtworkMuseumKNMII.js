@@ -1,22 +1,17 @@
 var mongoose = require('mongoose');
-var uniqueValidator = require('mongoose-unique-validator');
 
 const AuthorArtworkMuseumKNMIISchema = mongoose.Schema({
     yearsOfLife: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     },
     name: {
         type: String,
-        required: true,
-        unique: false
+        required: true
     }
 }, {
     timestamps: true
 });
-
-AuthorArtworkMuseumKNMIISchema.plugin(uniqueValidator);
 
 var AuthorArtworkMuseumKNMII = mongoose.model('AuthorArtworkMuseumKNMII', AuthorArtworkMuseumKNMIISchema);
 
