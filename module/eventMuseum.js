@@ -13,32 +13,35 @@ const getClient = async (search, sort, skip) => {
     let today = new Date();
     if(sort===''){
         return await EventMuseumKNMII
-            .find({dateEnd: {$gte: today}, dateStart: {$lte: today}})
+            .find({dateEnd: {$gte: today}})
             .sort('-updatedAt')
             .skip(parseInt(skip))
             .limit(30)
+            .sort('dateStart')
             .select('photos photos_thumbnail name_ru name_kg name_eng type_ru type_kg type_eng dateStart description_eng description_ru description_kg dateEnd')
     } else if(sort==='type'){
         return await EventMuseumKNMII
-            .find({$and: [{dateEnd: {$gte: today}, dateStart: {$lte: today}}, {$or: [{type_ru: search}, {type_kg: search}, {type_eng: search}]}]})
+            .find({$and: [{dateEnd: {$gte: today}}, {$or: [{type_ru: search}, {type_kg: search}, {type_eng: search}]}]})
             .sort('-updatedAt')
             .skip(parseInt(skip))
             .limit(30)
+            .sort('dateStart')
             .select('photos photos_thumbnail name_ru name_kg name_eng type_ru type_kg type_eng dateStart description_eng description_ru description_kg dateEnd')
     } else if(sort==='date'){
         search = new Date(search)
         return await EventMuseumKNMII
-            .find({dateEnd: {$gte: search}, dateStart: {$lte: search}})
+            .find({dateEnd: {$gte: search}})
             .sort('-updatedAt')
             .skip(parseInt(skip))
             .limit(30)
+            .sort('dateStart')
             .select('photos photos_thumbnail name_ru name_kg name_eng type_ru type_kg type_eng dateStart description_eng description_ru description_kg dateEnd')
     }
 }
 
 const getRandom = async () => {
     let today = new Date();
-    return await EventMuseumKNMII.findRandom({dateEnd: {$gte: today}, dateStart: {$lte: today}})
+    return await EventMuseumKNMII.findRandom({dateEnd: {$gte: today}})
         .limit(3)
         .select('photos photos_thumbnail name_ru name_kg name_eng type_ru type_kg type_eng dateStart description_eng description_ru description_kg dateEnd');
 }
