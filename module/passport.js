@@ -14,11 +14,12 @@ let start = () => {
             session: false
         },
         function (email, password, done) {
+
             UserMuseumKNMII.findOne({email}, (err, user) => {
                 if (err) {
                     return done(err);
                 }
-
+                console.log(!user, !user.checkPassword(password), user.status!='active')
                 if (!user || !user.checkPassword(password) || user.status!='active') {
                     return done(null, false, {message: 'Нет такого пользователя или пароль неверен.'});
                 }

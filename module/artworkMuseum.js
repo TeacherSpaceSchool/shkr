@@ -2,11 +2,11 @@ const ArtworkMuseumKNMII = require('../models/artwork/artworkMuseumKNMII');
 const format = require('date-format') ;
 
 const getById = async (id) => {
-    return await ArtworkMuseumKNMII.findOne({_id: id}).select('description_ru description_kg description_eng name_kg image_whatermark image_whatermar_thumbnail name_ru styleOrMaterial_ru name_kg styleOrMaterial_kg name_eng styleOrMaterial_eng date author genre views').populate({path: 'genre', select: 'name_ru name_kg name_eng'}).populate({path: 'author', select: 'name yearsOfLife'})
+    return await ArtworkMuseumKNMII.findOne({_id: id}).select('genre1 description_ru description_kg description_eng name_kg image_whatermark image_whatermar_thumbnail name_ru styleOrMaterial_ru name_kg styleOrMaterial_kg name_eng styleOrMaterial_eng date author genre views').populate({path: 'genre', select: 'name_ru name_kg name_eng'}).populate({path: 'author', select: 'name yearsOfLife'})
 }
 
 const getStyleOrMaterial = async () => {
-    return {ru: await ArtworkMuseumKNMII.find().distinct('styleOrMaterial_ru'), kg: await ArtworkMuseumKNMII.find().distinct('styleOrMaterial_kg'), eng: await ArtworkMuseumKNMII.find().distinct('styleOrMaterial_eng')}
+    return await ArtworkMuseumKNMII.find().distinct('genre1')
 }
 
 const view = async (id) => {
@@ -29,16 +29,16 @@ const getClient = async (search, sort, skip, genre) => {
             .sort('-updatedAt')
             .skip(parseInt(skip))
             .limit(30)
-            .select('description_ru description_kg description_eng name_kg image_whatermark image_whatermar_thumbnail name_ru styleOrMaterial_ru name_kg styleOrMaterial_kg name_eng styleOrMaterial_eng date author genre views')
+            .select('genre1 description_ru description_kg description_eng name_kg image_whatermark image_whatermar_thumbnail name_ru styleOrMaterial_ru name_kg styleOrMaterial_kg name_eng styleOrMaterial_eng date author genre views')
             .populate({path: 'genre', select: 'name_ru name_kg name_eng'})
             .populate({path: 'author', select: 'name yearsOfLife'})
     } else if(sort==='styleOrMaterial'){
         return await ArtworkMuseumKNMII
-            .find({genre: genre, $or: [{styleOrMaterial_ru: search}, {styleOrMaterial_kg: search}, {styleOrMaterial_eng: search}]})
+            .find({genre: genre, genre1: search})
             .sort('-updatedAt')
             .skip(parseInt(skip))
             .limit(30)
-            .select('description_ru description_kg description_eng name_kg image_whatermark image_whatermar_thumbnail name_ru styleOrMaterial_ru name_kg styleOrMaterial_kg name_eng styleOrMaterial_eng date author genre views')
+            .select('genre1 description_ru description_kg description_eng name_kg image_whatermark image_whatermar_thumbnail name_ru styleOrMaterial_ru name_kg styleOrMaterial_kg name_eng styleOrMaterial_eng date author genre views')
             .populate({path: 'genre', select: 'name_ru name_kg name_eng'})
             .populate({path: 'author', select: 'name yearsOfLife'})
     } else if(sort==='author'){
@@ -47,7 +47,7 @@ const getClient = async (search, sort, skip, genre) => {
             .sort('-updatedAt')
             .skip(parseInt(skip))
             .limit(30)
-            .select('description_ru description_kg description_eng name_kg image_whatermark image_whatermar_thumbnail name_ru styleOrMaterial_ru name_kg styleOrMaterial_kg name_eng styleOrMaterial_eng date author genre views')
+            .select('genre1 description_ru description_kg description_eng name_kg image_whatermark image_whatermar_thumbnail name_ru styleOrMaterial_ru name_kg styleOrMaterial_kg name_eng styleOrMaterial_eng date author genre views')
             .populate({path: 'genre', select: 'name_ru name_kg name_eng'})
             .populate({path: 'author', select: 'name yearsOfLife'})
     } else if(sort==='date'){
@@ -56,7 +56,7 @@ const getClient = async (search, sort, skip, genre) => {
             .sort('-updatedAt')
             .skip(parseInt(skip))
             .limit(30)
-            .select('description_ru description_kg description_eng name_kg image_whatermark image_whatermar_thumbnail name_ru styleOrMaterial_ru name_kg styleOrMaterial_kg name_eng styleOrMaterial_eng date author genre views')
+            .select('genre1 description_ru description_kg description_eng name_kg image_whatermark image_whatermar_thumbnail name_ru styleOrMaterial_ru name_kg styleOrMaterial_kg name_eng styleOrMaterial_eng date author genre views')
             .populate({path: 'genre', select: 'name_ru name_kg name_eng'})
             .populate({path: 'author', select: 'name yearsOfLife'})
     }
@@ -66,27 +66,27 @@ const getRandom = async (search, sort) => {
     if(sort==='')
         return await ArtworkMuseumKNMII.findRandom()
             .limit(4)
-            .select('description_ru description_kg description_eng image_whatermark image_whatermar_thumbnail name_ru styleOrMaterial_ru name_kg styleOrMaterial_kg name_eng styleOrMaterial_eng date author genre views')
+            .select('genre1 description_ru description_kg description_eng image_whatermark image_whatermar_thumbnail name_ru styleOrMaterial_ru name_kg styleOrMaterial_kg name_eng styleOrMaterial_eng date author genre views')
             .populate({path: 'genre', select: 'name_ru name_kg name_eng'})
             .populate({path: 'author', select: 'name yearsOfLife'})
     else if(sort==='author'){
         return await ArtworkMuseumKNMII.findRandom({author: search})
             .limit(4)
-            .select('description_ru description_kg description_eng image_whatermark image_whatermar_thumbnail name_ru styleOrMaterial_ru name_kg styleOrMaterial_kg name_eng styleOrMaterial_eng date author genre views')
+            .select('genre1 description_ru description_kg description_eng image_whatermark image_whatermar_thumbnail name_ru styleOrMaterial_ru name_kg styleOrMaterial_kg name_eng styleOrMaterial_eng date author genre views')
             .populate({path: 'genre', select: 'name_ru name_kg name_eng'})
             .populate({path: 'author', select: 'name yearsOfLife'})
     }
     else if(sort==='styleOrMaterial'){
         return await ArtworkMuseumKNMII.findRandom({$or: [{styleOrMaterial_ru: search}, {styleOrMaterial_kg: search}, {styleOrMaterial_eng: search}]})
             .limit(4)
-            .select('image_whatermark image_whatermar_thumbnail name_ru styleOrMaterial_ru name_kg styleOrMaterial_kg name_eng styleOrMaterial_eng date author genre views')
+            .select('igenre1 mage_whatermark image_whatermar_thumbnail name_ru styleOrMaterial_ru name_kg styleOrMaterial_kg name_eng styleOrMaterial_eng date author genre views')
             .populate({path: 'genre', select: 'name_ru name_kg name_eng'})
             .populate({path: 'author', select: 'name yearsOfLife'})
     }
     else if(sort==='date'){
         return await ArtworkMuseumKNMII.findRandom({date: {'$regex': search, '$options': 'i'}})
             .limit(4)
-            .select('description_ru description_kg description_eng image_whatermark image_whatermar_thumbnail name_ru styleOrMaterial_ru name_kg styleOrMaterial_kg name_eng styleOrMaterial_eng date author genre views')
+            .select('genre1 description_ru description_kg description_eng image_whatermark image_whatermar_thumbnail name_ru styleOrMaterial_ru name_kg styleOrMaterial_kg name_eng styleOrMaterial_eng date author genre views')
             .populate({path: 'genre', select: 'name_ru name_kg name_eng'})
             .populate({path: 'author', select: 'name yearsOfLife'})
     } else if(sort==='genre')
@@ -115,6 +115,7 @@ const getArtworkMuseumKNMII = async (search, sort, skip) => {
         'год исполнения',
         'просмотры',
         'автор',
+        'тип',
         'жанр',
         'создан',
         '_id'
@@ -165,9 +166,9 @@ const getArtworkMuseumKNMII = async (search, sort, skip) => {
         sort = 'date';
     else if(sort[0]=='год исполнения'&&sort[1]=='descending')
         sort = '-date';
-    else if(sort[0]=='жанр'&&sort[1]=='ascending')
+    else if(sort[0]=='тип'&&sort[1]=='ascending')
         sort = 'genre';
-    else if(sort[0]=='жанр'&&sort[1]=='descending')
+    else if(sort[0]=='тип'&&sort[1]=='descending')
         sort = '-genre';
     else if(sort[0]=='автор'&&sort[1]=='ascending')
         sort = '';
@@ -184,7 +185,7 @@ const getArtworkMuseumKNMII = async (search, sort, skip) => {
             .sort(sort)
             .skip(parseInt(skip))
             .limit(10)
-            .select('image image_whatermark name_ru styleOrMaterial_ru description_ru description_kg description_eng name_kg styleOrMaterial_kg name_eng styleOrMaterial_eng size date author genre preservation motion reproduced views updatedAt _id')
+            .select('image genre1 image_whatermark name_ru styleOrMaterial_ru description_ru description_kg description_eng name_kg styleOrMaterial_kg name_eng styleOrMaterial_eng size date author genre preservation motion reproduced views updatedAt _id')
             .populate({path: 'genre', select: 'name_ru name_kg name_eng'})
             .populate({path: 'author', select: 'name yearsOfLife'})
     } else {
@@ -220,7 +221,7 @@ const getArtworkMuseumKNMII = async (search, sort, skip) => {
             .sort(sort)
             .skip(parseInt(skip))
             .limit(10)
-            .select('image image_whatermark name_ru styleOrMaterial_ru name_kg description_ru description_kg description_eng styleOrMaterial_kg name_eng styleOrMaterial_eng size date author genre preservation motion reproduced views updatedAt _id')
+            .select('image image_whatermark genre1 name_ru styleOrMaterial_ru name_kg description_ru description_kg description_eng styleOrMaterial_kg name_eng styleOrMaterial_eng size date author genre preservation motion reproduced views updatedAt _id')
             .populate({
                 path: 'genre',
                 select: 'name_ru',
@@ -232,13 +233,16 @@ const getArtworkMuseumKNMII = async (search, sort, skip) => {
             });
     }
     for (let i=0; i<findResult.length; i++){
+        let genre1 = ''
+        if(findResult[i].genre1 != undefined)
+            genre1 = findResult[i].genre1
         let author = ''
         if(findResult[i].author != undefined)
             author = findResult[i].author.name+'\n'+findResult[i].author._id
         let genre = ''
         if(findResult[i].genre != undefined)
             genre = findResult[i].genre.name_ru+'\n'+findResult[i].genre._id
-        data.push([findResult[i].image, findResult[i].image_whatermark, findResult[i].name_ru, findResult[i].styleOrMaterial_ru, findResult[i].description_ru, findResult[i].name_kg, findResult[i].styleOrMaterial_kg, findResult[i].description_kg, findResult[i].name_eng, findResult[i].styleOrMaterial_eng, findResult[i].description_eng, findResult[i].size, findResult[i].date, findResult[i].views, author, genre, format.asString('yyyy.dd.MM hh:mm', findResult[i].updatedAt), findResult[i]._id]);
+        data.push([findResult[i].image, findResult[i].image_whatermark, findResult[i].name_ru, findResult[i].styleOrMaterial_ru, findResult[i].description_ru, findResult[i].name_kg, findResult[i].styleOrMaterial_kg, findResult[i].description_kg, findResult[i].name_eng, findResult[i].styleOrMaterial_eng, findResult[i].description_eng, findResult[i].size, findResult[i].date, findResult[i].views, author, genre, genre1, format.asString('yyyy.dd.MM hh:mm', findResult[i].updatedAt), findResult[i]._id]);
     }
     return {data: data, count: count, row: row}
 }

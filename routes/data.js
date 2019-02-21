@@ -55,6 +55,9 @@ router.post('/getclient', async (req, res) => {
     } else if(req.body.name == 'Произведение'){
         let data = JSON.parse(req.body.data)
         await res.send(await ArtworkMuseum.getById(data.id))
+    } else if(req.body.name == 'Автор'){
+        let data = JSON.parse(req.body.data)
+        await res.send(await AuthorArtworkMuseum.getById(data.id))
     } else if(req.body.name == 'Галлерея'){
         let data = JSON.parse(req.body.data)
         await res.send(await ArtworkMuseum.getClient(data.search, data.sort, data.skip, data.genre))
@@ -85,7 +88,7 @@ router.post('/get', async (req, res) => {
           await res.send(await TicketMuseum.getTicketMuseumKNMII(req.body.search, req.body.sort, req.body.skip))
       } else if(req.body.name == 'Экскурсия'){
           await res.send(await ExcursionMuseum.getExcursionMuseumKNMII(req.body.search, req.body.sort, req.body.skip))
-      } else if(req.body.name == 'Жанр произведения'){
+      } else if(req.body.name == 'Тип произведения'){
           await res.send(await GenreArtworkMuseum.getGenreArtworkMuseumKNMII(req.body.search, req.body.sort, req.body.skip))
       } else if(req.body.name == 'Автор произведения'){
           await res.send(await AuthorArtworkMuseum.getAuthorArtworkMuseumKNMII(req.body.search, req.body.sort, req.body.skip))
@@ -124,7 +127,7 @@ router.post('/delete', async (req, res) => {
         } else if(req.body.name == 'Экскурсия'){
             await ExcursionMuseum.deleteExcursionMuseumKNMII(JSON.parse(req.body.deleted))
             await res.send(await ExcursionMuseum.getExcursionMuseumKNMII(req.body.search, req.body.sort, req.body.skip))
-        } else if(req.body.name == 'Жанр произведения'){
+        } else if(req.body.name == 'Тип произведения'){
             await GenreArtworkMuseum.deleteGenreArtworkMuseumKNMII(JSON.parse(req.body.deleted))
             await res.send(await GenreArtworkMuseum.getGenreArtworkMuseumKNMII(req.body.search, req.body.sort, req.body.skip))
         } else if(req.body.name == 'Автор произведения'){
@@ -294,7 +297,7 @@ router.post('/add', async (req, res) => {
             else
                 await VirtualMuseum.setVirtualMuseumKNMII(data, req.body.id)
             await res.send(await VirtualMuseum.getVirtualMuseumKNMII(req.body.search, req.body.sort, req.body.skip))
-        } else if(req.body.name == 'Жанр произведения'){
+        } else if(req.body.name == 'Тип произведения'){
             data = {
                 photo: photos,
                 photo_thumbnail: photosThumbnail,
@@ -345,6 +348,7 @@ router.post('/add', async (req, res) => {
                 date: myNew.date,
                 author: myNew.author,
                 genre: myNew.genre,
+                genre1: myNew.genre1,
                 description_ru: myNew.description_ru,
                 description_eng: myNew.description_eng,
                 description_kg: myNew.description_kg,
@@ -374,7 +378,13 @@ router.post('/add', async (req, res) => {
             data = {
                 yearsOfLife: myNew.yearsOfLife,
                 name: myNew.name,
+                biography_ru: myNew.biography_ru,
+                biography_kg: myNew.biography_kg,
+                photos: photos,
+                photos_thumbnail: photosThumbnail,
+                biography_eng: myNew.biography_eng
             }
+            console.log(data)
             if(req.body.id==undefined)
                 await AuthorArtworkMuseum.addAuthorArtworkMuseumKNMII(data)
             else
