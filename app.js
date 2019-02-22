@@ -52,7 +52,7 @@ app.use(formData.stream());
 // union body and files
 app.use(formData.union());
 
-app.use(new RegExp('/(events|genre|author/[0-9A-Za-z]+|event/[0-9A-Za-z]+|about|artwork/[0-9A-Za-z]+|excursion|gallery/[0-9A-Za-z]+|ticket|virtual|store|storeitem/[0-9A-Za-z]+)?'), indexRouter);
+app.use(new RegExp(/^\/(events|genre|author\/[\s\S]+|event\/[\s\S]+|about|artwork\/[\s\S]+|excursion|gallery\/[\s\S]+|ticket|virtual|store|storeitem\/[\s\S]+)?/), indexRouter);
 app.use('/admin', adminRouter);
 app.use('/users', usersRouter);
 app.use('/data', dataRouter);
