@@ -1,5 +1,5 @@
 const ExcursionMuseumKNMII = require('../models/excursion/excursionMuseumKNMII');
-const format = require('./const').stringifyDateTime ;
+const format = require('date-format') ;
 
 const getClient = async () => {
     let types = await ExcursionMuseumKNMII.find().distinct('type_ru');
@@ -92,7 +92,7 @@ const getExcursionMuseumKNMII = async (search, sort, skip) => {
             .select('name_ru type_ru name_kg type_kg name_eng type_eng updatedAt _id');
     }
     for (let i=0; i<findResult.length; i++){
-        data.push([findResult[i].name_ru, findResult[i].type_ru, findResult[i].name_kg, findResult[i].type_kg, findResult[i].name_eng, findResult[i].type_eng, format(findResult[i].updatedAt), findResult[i]._id]);
+        data.push([findResult[i].name_ru, findResult[i].type_ru, findResult[i].name_kg, findResult[i].type_kg, findResult[i].name_eng, findResult[i].type_eng, format.asString('yyyy.dd.MM hh:mm', findResult[i].updatedAt), findResult[i]._id]);
     }
     return {data: data, count: count, row: row}
 

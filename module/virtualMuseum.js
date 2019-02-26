@@ -1,5 +1,5 @@
 const VirtualMuseumKNMII = require('../models/virtualMuseum/virtualMuseumKNMII');
-const format = require('./const').stringifyDateTime ;
+const format = require('date-format') ;
 
 const getClient = async () => {
     return await VirtualMuseumKNMII.find();
@@ -70,7 +70,7 @@ const getVirtualMuseumKNMII = async (search, sort, skip) => {
         let photos=findResult[i].photos.toString();
         while(photos.includes(',http://'))
             photos = photos.replace(',http://', '\nhttp://');
-        data.push([photos, findResult[i].name_ru, findResult[i].name_kg, findResult[i].name_eng, format(findResult[i].updatedAt), findResult[i]._id]);
+        data.push([photos, findResult[i].name_ru, findResult[i].name_kg, findResult[i].name_eng, format.asString('yyyy.dd.MM hh:mm', findResult[i].updatedAt), findResult[i]._id]);
     }
     return {data: data, count: count, row: row}
 }

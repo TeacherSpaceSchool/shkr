@@ -1,5 +1,5 @@
 const AuthorArtworkMuseumKNMII = require('../models/artwork/authorArtworkMuseumKNMII');
-const format = require('./const').stringifyDateTime ;
+const format = require('date-format') ;
 
 const getById = async (id) => {
     return await AuthorArtworkMuseumKNMII.findOne({_id: id})
@@ -79,7 +79,7 @@ const getAuthorArtworkMuseumKNMII = async (search, sort, skip) => {
             .select('photos yearsOfLife biography_ru biography_kg biography_eng name updatedAt _id');
     }
     for (let i=0; i<findResult.length; i++){
-        data.push([findResult[i].photos, findResult[i].name, findResult[i].yearsOfLife, findResult[i].biography_ru, findResult[i].biography_kg, findResult[i].biography_eng, format(findResult[i].updatedAt), findResult[i]._id]);
+        data.push([findResult[i].photos, findResult[i].name, findResult[i].yearsOfLife, findResult[i].biography_ru, findResult[i].biography_kg, findResult[i].biography_eng, format.asString('yyyy.dd.MM hh:mm', findResult[i].updatedAt), findResult[i]._id]);
     }
     return {data: data, count: count, row: row}
 }

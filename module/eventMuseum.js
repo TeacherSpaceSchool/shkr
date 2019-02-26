@@ -1,5 +1,5 @@
 const EventMuseumKNMII = require('../models/eventMuseum/eventMuseumKNMII');
-const format = require('./const').stringifyDateTime ;
+const format = require('date-format') ;
 
 const getById = async (id) => {
     return await EventMuseumKNMII.findOne({_id: id}).select('photos photos_thumbnail name_ru name_kg name_eng type_ru type_kg type_eng dateStart description_eng description_ru description_kg dateEnd')
@@ -167,7 +167,7 @@ const getEventMuseumKNMII = async (search, sort, skip) => {
         let photos=findResult[i].photos.toString();
         while(photos.includes(',http://'))
             photos = photos.replace(',http://', '\nhttp://');
-        data.push([photos, format.asString('yyyy.MM.dd hh:mm', findResult[i].dateStart), format.asString('yyyy.MM.dd hh:mm', findResult[i].dateEnd), findResult[i].name_ru, findResult[i].type_ru, findResult[i].description_ru, findResult[i].name_kg, findResult[i].type_kg, findResult[i].description_kg, findResult[i].name_eng, findResult[i].type_eng, findResult[i].description_eng, format(findResult[i].updatedAt), findResult[i]._id]);
+        data.push([photos, format.asString('yyyy.MM.dd hh:mm', findResult[i].dateStart), format.asString('yyyy.MM.dd hh:mm', findResult[i].dateEnd), findResult[i].name_ru, findResult[i].type_ru, findResult[i].description_ru, findResult[i].name_kg, findResult[i].type_kg, findResult[i].description_kg, findResult[i].name_eng, findResult[i].type_eng, findResult[i].description_eng, format.asString('yyyy.dd.MM hh:mm', findResult[i].updatedAt), findResult[i]._id]);
     }
     return {data: data, count: count, row: row}
 }

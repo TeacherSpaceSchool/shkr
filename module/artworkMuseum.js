@@ -1,5 +1,5 @@
 const ArtworkMuseumKNMII = require('../models/artwork/artworkMuseumKNMII');
-const format = require('./const').stringifyDateTime ;
+const format = require('date-format') ;
 
 const getById = async (id) => {
     return await ArtworkMuseumKNMII.findOne({_id: id}).select('genre1 description_ru description_kg description_eng name_kg image_whatermark image_whatermar_thumbnail name_ru styleOrMaterial_ru name_kg styleOrMaterial_kg name_eng styleOrMaterial_eng date author genre views').populate({path: 'genre', select: 'name_ru name_kg name_eng'}).populate({path: 'author', select: 'name yearsOfLife'})
@@ -242,7 +242,7 @@ const getArtworkMuseumKNMII = async (search, sort, skip) => {
         let genre = ''
         if(findResult[i].genre != undefined)
             genre = findResult[i].genre.name_ru+'\n'+findResult[i].genre._id
-        data.push([findResult[i].image, findResult[i].image_whatermark, findResult[i].name_ru, findResult[i].styleOrMaterial_ru, findResult[i].description_ru, findResult[i].name_kg, findResult[i].styleOrMaterial_kg, findResult[i].description_kg, findResult[i].name_eng, findResult[i].styleOrMaterial_eng, findResult[i].description_eng, findResult[i].size, findResult[i].date, findResult[i].views, author, genre, genre1, format(findResult[i].updatedAt), findResult[i]._id]);
+        data.push([findResult[i].image, findResult[i].image_whatermark, findResult[i].name_ru, findResult[i].styleOrMaterial_ru, findResult[i].description_ru, findResult[i].name_kg, findResult[i].styleOrMaterial_kg, findResult[i].description_kg, findResult[i].name_eng, findResult[i].styleOrMaterial_eng, findResult[i].description_eng, findResult[i].size, findResult[i].date, findResult[i].views, author, genre, genre1, format.asString('yyyy.dd.MM hh:mm', findResult[i].updatedAt), findResult[i]._id]);
     }
     return {data: data, count: count, row: row}
 }
