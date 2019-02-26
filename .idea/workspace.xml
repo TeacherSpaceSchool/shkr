@@ -3,17 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="aef3c9e9-2922-42a5-aaa5-79ce22b59d1a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/aboutMuseum.js" afterPath="$PROJECT_DIR$/module/aboutMuseum.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/artworkMuseum.js" afterPath="$PROJECT_DIR$/module/artworkMuseum.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/authorArtworkMuseum.js" afterPath="$PROJECT_DIR$/module/authorArtworkMuseum.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/const.js" afterPath="$PROJECT_DIR$/module/const.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/eventMuseum.js" afterPath="$PROJECT_DIR$/module/eventMuseum.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/excursionMuseum.js" afterPath="$PROJECT_DIR$/module/excursionMuseum.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/genreArtworkMuseum.js" afterPath="$PROJECT_DIR$/module/genreArtworkMuseum.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/itemMuseum.js" afterPath="$PROJECT_DIR$/module/itemMuseum.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/nameMuseum.js" afterPath="$PROJECT_DIR$/module/nameMuseum.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/ticketMuseum.js" afterPath="$PROJECT_DIR$/module/ticketMuseum.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/virtualMuseum.js" afterPath="$PROJECT_DIR$/module/virtualMuseum.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,8 +19,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="authorArtworkMuseum.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/authorArtworkMuseum.js">
+      <file leaf-file-name="artworkMuseum.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/artworkMuseum.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
               <caret line="2" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
@@ -40,11 +29,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="authorArtworkMuseum.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/authorArtworkMuseum.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="eventMuseum.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/eventMuseum.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="139" column="9" lean-forward="true" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
+            <state relative-caret-position="153">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -63,8 +62,8 @@
       <file leaf-file-name="genreArtworkMuseum.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/genreArtworkMuseum.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -90,21 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="passport.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/passport.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ticketMuseum.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/ticketMuseum.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            <state relative-caret-position="17">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -120,11 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/module/user.js">
+      <file leaf-file-name="const.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module/const.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+            <state relative-caret-position="102">
+              <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -247,17 +236,17 @@
         <option value="$PROJECT_DIR$/models/artwork/artworkMuseumKNMII.js" />
         <option value="$PROJECT_DIR$/routes/data.js" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/module/const.js" />
+        <option value="$PROJECT_DIR$/module/eventMuseum.js" />
         <option value="$PROJECT_DIR$/module/aboutMuseum.js" />
         <option value="$PROJECT_DIR$/module/artworkMuseum.js" />
         <option value="$PROJECT_DIR$/module/authorArtworkMuseum.js" />
-        <option value="$PROJECT_DIR$/module/eventMuseum.js" />
         <option value="$PROJECT_DIR$/module/excursionMuseum.js" />
         <option value="$PROJECT_DIR$/module/genreArtworkMuseum.js" />
         <option value="$PROJECT_DIR$/module/itemMuseum.js" />
         <option value="$PROJECT_DIR$/module/nameMuseum.js" />
         <option value="$PROJECT_DIR$/module/ticketMuseum.js" />
         <option value="$PROJECT_DIR$/module/virtualMuseum.js" />
+        <option value="$PROJECT_DIR$/module/const.js" />
       </list>
     </option>
   </component>
@@ -525,12 +514,12 @@
       <workItem from="1550728964998" duration="2966000" />
       <workItem from="1550839361086" duration="616000" />
       <workItem from="1550845378621" duration="685000" />
-      <workItem from="1551165424352" duration="1241000" />
+      <workItem from="1551165424352" duration="1730000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="294466000" />
+    <option name="totallyTimeSpent" value="294955000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -776,18 +765,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/const.js">
+    <entry file="file://$PROJECT_DIR$/module/passport.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        <state relative-caret-position="323">
+          <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/aboutMuseum.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="66" column="5" lean-forward="false" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -803,15 +800,15 @@
     <entry file="file://$PROJECT_DIR$/module/authorArtworkMuseum.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/eventMuseum.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="139" column="9" lean-forward="true" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -826,8 +823,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module/genreArtworkMuseum.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -848,18 +845,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/passport.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module/ticketMuseum.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="17">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -872,13 +861,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/user.js">
+    <entry file="file://$PROJECT_DIR$/module/const.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        <state relative-caret-position="102">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
   </component>
-</project>                           
+</project>
