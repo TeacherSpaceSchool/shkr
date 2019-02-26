@@ -1,5 +1,5 @@
 const GenreArtworkMuseumKNMII = require('../models/artwork/genreArtworkMuseumKNMII');
-const format = require('date-format') ;
+const format = require('./const').stringifyDateTime ;
 
 const getClient = async (search) => {
     if(search===''||search==='all')
@@ -91,7 +91,7 @@ const getGenreArtworkMuseumKNMII = async (search, sort, skip) => {
             .select('photo name_ru description_ru name_kg description_kg name_eng description_eng updatedAt _id');
     }
     for (let i=0; i<findResult.length; i++){
-        data.push([findResult[i].photo, findResult[i].name_ru, findResult[i].description_ru, findResult[i].name_kg, findResult[i].description_kg, findResult[i].name_eng, findResult[i].description_eng, format.asString('yyyy.dd.MM hh:mm', findResult[i].updatedAt), findResult[i]._id]);
+        data.push([findResult[i].photo, findResult[i].name_ru, findResult[i].description_ru, findResult[i].name_kg, findResult[i].description_kg, findResult[i].name_eng, findResult[i].description_eng, format(findResult[i].updatedAt), findResult[i]._id]);
     }
     return {data: data, count: count, row: row}
 }

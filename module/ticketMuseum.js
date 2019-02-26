@@ -1,5 +1,5 @@
 const TicketMuseumKNMII = require('../models/ticket/ticketMuseumKNMII');
-const format = require('date-format') ;
+const format = require('./const').stringifyDateTime ;
 
 const getTicketMuseumKNMII = async (search, sort, skip) => {
     let findResult = [], data = [], count;
@@ -77,7 +77,7 @@ const getTicketMuseumKNMII = async (search, sort, skip) => {
             .select('genre_ru type_ru genre_kg type_kg genre_eng type_eng price updatedAt _id');
     }
     for (let i=0; i<findResult.length; i++){
-        data.push([findResult[i].genre_ru, findResult[i].type_ru, findResult[i].genre_kg, findResult[i].type_kg, findResult[i].genre_eng, findResult[i].type_eng, findResult[i].price, format.asString('yyyy.dd.MM hh:mm', findResult[i].updatedAt), findResult[i]._id]);
+        data.push([findResult[i].genre_ru, findResult[i].type_ru, findResult[i].genre_kg, findResult[i].type_kg, findResult[i].genre_eng, findResult[i].type_eng, findResult[i].price, format(findResult[i].updatedAt), findResult[i]._id]);
     }
     return {data: data, count: count, row: row}
 }

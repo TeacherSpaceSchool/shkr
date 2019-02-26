@@ -1,5 +1,5 @@
 const NameMuseumKNMII = require('../models/nameMuseum/nameMuseumKNMII');
-const format = require('date-format') ;
+const format = require('./const').stringifyDateTime ;
 
 const getNameMuseumKNMII = async (search, sort, skip) => {
     let findResult = [], data = [], count;
@@ -91,7 +91,7 @@ const getNameMuseumKNMII = async (search, sort, skip) => {
             .select('photo name_ru name_kg name_eng updatedAt _id adress phonenumber email url');
     }
     for (let i=0; i<findResult.length; i++){
-        data.push([findResult[i].photo, findResult[i].name_ru, findResult[i].name_kg, findResult[i].name_eng, findResult[i].adress, findResult[i].phonenumber, findResult[i].email, findResult[i].url, format.asString('yyyy.dd.MM hh:mm', findResult[i].updatedAt), findResult[i]._id]);
+        data.push([findResult[i].photo, findResult[i].name_ru, findResult[i].name_kg, findResult[i].name_eng, findResult[i].adress, findResult[i].phonenumber, findResult[i].email, findResult[i].url, format(findResult[i].updatedAt), findResult[i]._id]);
     }
     return {data: data, count: count, row: row}
 }
