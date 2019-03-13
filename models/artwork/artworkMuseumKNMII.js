@@ -62,6 +62,10 @@ const ArtworkMuseumKNMIISchema = mongoose.Schema({
         type: String,
         required: true
     },
+    year: {
+        type: String,
+        required: true
+    },
     genre1: {
         type: String,
         required: true

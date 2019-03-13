@@ -346,6 +346,7 @@ router.post('/add', async (req, res) => {
                 styleOrMaterial_eng: myNew.styleOrMaterial_eng,
                 size: myNew.size,
                 date: myNew.date,
+                year: myNew.year,
                 author: myNew.author,
                 genre: myNew.genre,
                 genre1: myNew.genre1,
