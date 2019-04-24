@@ -1,4 +1,4 @@
-const UserMuseumKNMII = require('../models/userMuseumKNMII');
+const UserSHKR = require('../models/userSHKR');
 let adminId = '';
 const adminLogin = require('./const').adminLogin,
     adminPass = require('./const').adminPass;
@@ -14,15 +14,15 @@ let checkAdmin = async (role, status) => {
 
 let createAdmin = async () => {
     try{
-        let findAdmin = await UserMuseumKNMII.findOne({email: adminLogin});
+        let findAdmin = await UserSHKR.findOne({email: adminLogin});
         if(findAdmin==null){
-            const _user = new UserMuseumKNMII({
+            const _user = new UserSHKR({
                 email: adminLogin,
                 role: 'admin',
                 status: 'active',
                 password: adminPass,
             });
-            findAdmin = await UserMuseumKNMII.create(_user);
+            findAdmin = await UserSHKR.create(_user);
         }
         adminId = findAdmin._id.toString();
     } catch(error) {

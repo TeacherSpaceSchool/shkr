@@ -3,7 +3,7 @@ const LocalStrategy = require('passport-local');
 const JwtStrategy = require('passport-jwt').Strategy;
 const ExtractJwt = require('passport-jwt').ExtractJwt;
 const jwtsecret = '@615141ViDiK141516@';
-const UserMuseumKNMII = require('../models/userMuseumKNMII');
+const UserSHKR = require('../models/userSHKR');
 const jwt = require('jsonwebtoken');
 
 let start = () => {
@@ -15,7 +15,7 @@ let start = () => {
         },
         function (email, password, done) {
 
-            UserMuseumKNMII.findOne({email}, (err, user) => {
+            UserSHKR.findOne({email}, (err, user) => {
                 if (err) {
                     return done(err);
                 }
@@ -32,7 +32,7 @@ let start = () => {
     jwtOptions.jwtFromRequest= ExtractJwt.fromAuthHeaderAsBearerToken();
     jwtOptions.secretOrKey=jwtsecret;
     passport.use(new JwtStrategy(jwtOptions, function (payload, done) {
-            UserMuseumKNMII.findOne({email:payload.email}, (err, user) => {
+            UserSHKR.findOne({email:payload.email}, (err, user) => {
                 if (err) {
                     return done(err)
                 }
