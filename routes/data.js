@@ -33,7 +33,7 @@ router.post('/getclient', async (req, res) => {
         await res.send(await ArtworkSHKR.getStyleOrMaterial())
     } else if(req.body.name == 'Авторы'){
         await res.send(await AuthorArtworkSHKR.getClient())
-    } else if(req.body.name == 'О Музее'){
+    } else if(req.body.name == 'О музее'){
         await res.send(await AboutSHKR.getClient())
     } else if(req.body.name == 'Журналы'){
         await res.send(await JournalSHKR.getClient())
