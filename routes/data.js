@@ -19,7 +19,7 @@ const Jimp = require('jimp');
 router.post('/getIds', async (req, res) => {
     await passportEngine.verifydeuser(req, res, async ()=>{
         if(req.body.name == 'Произведение'){
-            await res.send({GenreArtworkSHKR: await GenreArtworkSHKR.getIds(), AuthorArtworkSHKR: await AuthorArtworkSHKR.getIds()});
+            await res.send({GenreArtworkMuseum: await GenreArtworkSHKR.getIds(), AuthorArtworkMuseum: await AuthorArtworkSHKR.getIds()});
         }
     });
 });
@@ -197,10 +197,10 @@ router.post('/add', async (req, res) => {
                         if(req.body.name == 'Произведение') {
                             let font = await Jimp.loadFont(Jimp.FONT_SANS_32_WHITE);
                             image = await Jimp.read(filepath)
-                            await image.print(font, 10, 10, '')
+                            await image.print(font, 10, 10, 'SHKR')
                             await image.write(filepathWhatermark);
                             image = await Jimp.read(filepath)
-                            await image.print(font, 10, 10, '')
+                            await image.print(font, 10, 10, 'SHKR')
                             await image.resize(320, Jimp.AUTO)
                             await image.write(filepathWhatermarkThumbnail);
                         }
