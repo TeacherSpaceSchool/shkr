@@ -185,7 +185,7 @@ router.post('/add', async (req, res) => {
                     whatermarkThumbnail.push(myConst.url + 'thumbnail/' + filenameWhatermark)
                 }
                 stream.on('finish', async () => {
-                    if(req.body.name != 'Журналы') {
+                    if(req.body.name != 'Журналы'&&req.body.name != 'СХКР') {
                         let image = await Jimp.read(filepath)
                         if(image.bitmap.width>1500||image.bitmap.height>1500) {
                             await image.resize(1500, Jimp.AUTO);
@@ -197,10 +197,10 @@ router.post('/add', async (req, res) => {
                         if(req.body.name == 'Произведение') {
                             let font = await Jimp.loadFont(Jimp.FONT_SANS_32_WHITE);
                             image = await Jimp.read(filepath)
-                            await image.print(font, 10, 10, 'SHKR')
+                            await image.print(font, 10, 10, '')
                             await image.write(filepathWhatermark);
                             image = await Jimp.read(filepath)
-                            await image.print(font, 10, 10, 'SHKR')
+                            await image.print(font, 10, 10, '')
                             await image.resize(320, Jimp.AUTO)
                             await image.write(filepathWhatermarkThumbnail);
                         }
