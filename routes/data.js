@@ -185,7 +185,7 @@ router.post('/add', async (req, res) => {
                     whatermarkThumbnail.push(myConst.url + 'thumbnail/' + filenameWhatermark)
                 }
                 stream.on('finish', async () => {
-                    if(req.body.name != 'Журналы'&&req.body.name != 'СХКР') {
+                    if(req.body.name != 'Журналы') {
                         let image = await Jimp.read(filepath)
                         if(image.bitmap.width>1500||image.bitmap.height>1500) {
                             await image.resize(1500, Jimp.AUTO);
