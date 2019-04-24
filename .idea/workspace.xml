@@ -2,79 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aef3c9e9-2922-42a5-aaa5-79ce22b59d1a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aclient/precache-manifest.274aa5547b75bb97daac2e4597765eda.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aclient/static/css/1.22958c10.chunk.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aclient/static/css/1.22958c10.chunk.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aclient/static/css/main.61e5dadc.chunk.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aclient/static/css/main.61e5dadc.chunk.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aclient/static/js/1.eb64a796.chunk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aclient/static/js/1.eb64a796.chunk.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aclient/static/js/main.ab3943c0.chunk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aclient/static/js/main.ab3943c0.chunk.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aclient/static/media/banya.868ff1d8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aclient/static/media/music.c8529e82.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/precache-manifest.59ba7b88aede89cbcd4d79a8457941e9.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/static/css/9.702ac6fb.chunk.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/static/css/9.702ac6fb.chunk.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/static/css/main.ef6619c2.chunk.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/static/css/main.ef6619c2.chunk.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/static/js/0.18a2fbf8.chunk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/static/js/0.18a2fbf8.chunk.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/static/js/1.7ee30707.chunk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/static/js/1.7ee30707.chunk.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/static/js/10.ea969a5d.chunk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/static/js/10.ea969a5d.chunk.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/static/js/11.a34a5787.chunk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/static/js/11.a34a5787.chunk.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/static/js/2.32e8ee5d.chunk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/static/js/2.32e8ee5d.chunk.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/static/js/4.96db708f.chunk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/static/js/4.96db708f.chunk.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/static/js/5.826cc2c9.chunk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/static/js/5.826cc2c9.chunk.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/static/js/6.6a254723.chunk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/static/js/6.6a254723.chunk.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/static/js/7.02372e75.chunk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/static/js/7.02372e75.chunk.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/static/js/9.4234475d.chunk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/static/js/9.4234475d.chunk.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/static/js/main.b78feaef.chunk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/static/js/main.b78feaef.chunk.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/static/js/runtime~main.71cd4fe8.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/static/js/runtime~main.71cd4fe8.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/excursion/excursionMuseumKNMII.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/itemMuseumKNMII.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/ticket/ticketMuseumKNMII.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/module/excursionMuseum.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/module/ticketMuseum.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/models/aboutMuseum/aboutMuseumKNMII.js" afterPath="$PROJECT_DIR$/models/aboutSHKR/aboutSHKR.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/models/artwork/artworkMuseumKNMII.js" afterPath="$PROJECT_DIR$/models/artwork/artworkSHKR.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/models/artwork/authorArtworkMuseumKNMII.js" afterPath="$PROJECT_DIR$/models/artwork/authorArtworkSHKR.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/models/artwork/genreArtworkMuseumKNMII.js" afterPath="$PROJECT_DIR$/models/artwork/genreArtworkSHKR.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/models/eventMuseum/eventMuseumKNMII.js" afterPath="$PROJECT_DIR$/models/eventSHKR/eventSHKR.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/models/nameMuseum/nameMuseumKNMII.js" afterPath="$PROJECT_DIR$/models/nameSHKR/nameSHKR.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/models/userMuseumKNMII.js" afterPath="$PROJECT_DIR$/models/userSHKR.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/models/virtualMuseum/virtualMuseumKNMII.js" afterPath="$PROJECT_DIR$/models/journalSHKR/journalSHKR.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/aboutMuseum.js" afterPath="$PROJECT_DIR$/module/aboutSHKR.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/artworkMuseum.js" afterPath="$PROJECT_DIR$/module/artworkSHKR.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/authorArtworkMuseum.js" afterPath="$PROJECT_DIR$/module/authorArtworkSHKR.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/eventMuseum.js" afterPath="$PROJECT_DIR$/module/eventSHKR.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/genreArtworkMuseum.js" afterPath="$PROJECT_DIR$/module/genreArtworkSHKR.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/itemMuseum.js" afterPath="$PROJECT_DIR$/module/itemSHKR.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/nameMuseum.js" afterPath="$PROJECT_DIR$/module/nameSHKR.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/module/virtualMuseum.js" afterPath="$PROJECT_DIR$/module/journalSHKR.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aclient/favicon.ico" afterPath="$PROJECT_DIR$/aclient/favicon.ico" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aclient/asset-manifest.json" afterPath="$PROJECT_DIR$/aclient/asset-manifest.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aclient/index.html" afterPath="$PROJECT_DIR$/aclient/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aclient/service-worker.js" afterPath="$PROJECT_DIR$/aclient/service-worker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/asset-manifest.json" afterPath="$PROJECT_DIR$/admin/asset-manifest.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/index.html" afterPath="$PROJECT_DIR$/admin/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/service-worker.js" afterPath="$PROJECT_DIR$/admin/service-worker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/www" afterPath="$PROJECT_DIR$/bin/www" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/passport.js" afterPath="$PROJECT_DIR$/module/passport.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/user.js" afterPath="$PROJECT_DIR$/module/user.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/data.js" afterPath="$PROJECT_DIR$/routes/data.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -585,12 +513,12 @@
       <workItem from="1553958404893" duration="225000" />
       <workItem from="1554269983012" duration="1768000" />
       <workItem from="1555651101869" duration="698000" />
-      <workItem from="1556082222277" duration="6311000" />
+      <workItem from="1556082222277" duration="6379000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="318048000" />
+    <option name="totallyTimeSpent" value="318116000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -604,14 +532,14 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14068441" sideWeight="0.8412409" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14068441" sideWeight="0.8410714" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14068441" sideWeight="0.15875912" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26244953" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14068441" sideWeight="0.15892857" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26244953" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24629879" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24629879" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
